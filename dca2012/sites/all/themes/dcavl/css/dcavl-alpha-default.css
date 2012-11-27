@@ -1,0 +1,83 @@
+/* call-to-action menu */
+
+.block-menu-call-to-action-menu{
+  margin-top: 110px;
+}
+
+/* primary navigation */
+
+#zone-menu{
+  background-image: url(../images/bg-corner-2.png);
+}
+
+#block-superfish-1{
+  background-color: #CC5800;
+}
+
+.sf-menu.sf-style-default {
+  margin:0;
+}
+
+.sf-menu.sf-style-default li, .sf-menu.sf-style-default.sf-navbar {
+  background:none;
+  width:auto;
+  border-radius:0;
+  -moz-border-radius:0;
+  -webkit-border-radius:0;  
+  margin:0;
+  overflow:visible;
+}
+
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+  color: #FFF;
+  text-decoration: none;
+  padding: 1em;
+  border: none;
+}
+
+.sf-menu.sf-style-default a.active{
+  border-radius:0;
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  background-color: #ffffff;
+  color: #AE3A00;
+}
+
+.sf-menu.sf-style-default a:hover{
+  background-color: #AE3A00;
+  color:#FFFFFF;
+}
+.sf-menu.sf-style-default li:hover, .sf-menu.sf-style-default li.sfHover, .sf-menu.sf-style-default a:focus, .sf-menu.sf-style-default a:hover, .sf-menu.sf-style-default a:active {
+  background-color: #AE3A00;
+}
+
+.sf-menu.sf-style-default li li {
+  background-color: #CC5800;
+}
+
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+  background:none;
+}
+
+
+/* Content */
+
+.region-content-inner{
+  margin-top: 0;
+  /*min-height: 825px;*/
+}
+
+/* sidebar */
+
+#block-menu-menu-sidebar-menu ul.menu li{
+  background: url(../images/menu-sep.gif) no-repeat scroll right bottom transparent;
+}
+
+#block-menu-menu-sidebar-menu ul.menu li:hover, #block-menu-menu-sidebar-menu ul.menu li.active-trail{
+  background:none;
+  background-image: url(../images/nav-hover-small.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+

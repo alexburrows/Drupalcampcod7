@@ -1,0 +1,52 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+ #region-branding {
+position: relative;
+left: 375px;
+z-index: 300;
+}
+
+#region-user-second {
+position: absolute;
+right: 25px;
+top: 15px;
+}
+#block-block-14 p {
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+}
+#section-content {
+margin-top: 135px;
+}
+.not-front #section-content {
+margin-top: 285px;
+}
+
+#block-system-main-menu  ul.menu li,
+#block-system-main-menu  ul.menu li ~ li ~ li ~ li ~li ,
+#block-system-main-menu  ul.menu li ~ li ~ li ~ li ~li~li,
+#block-system-main-menu  ul.menu li ~ li ~ li ~ li ~li~li~li{
+margin-right: 8px;
+margin-left: 4px;
+}
+
+#block-system-main-menu  ul.menu li ~ li ~ li ~li {
+	margin-right: 130px;
+}
+
+#block-system-main-menu {
+margin-top: -75px;
+}
+
+#block-system-user-menu ul {
+margin-top: 3px;
+margin-right: 18px;
+}
+
+#page #block-system-main-menu {
+  display: block !important;
+  height: 48px;
+  }

@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Styling for the omega-2col-stacked template.
+ * Grid classes need to be added through the UI
+ */
+
+.omega-2col-stacked > .group-header {
+}
+
+.omega-2col-stacked > .group-left {
+}
+
+.omega-2col-stacked > .group-right {
+}
+
+.omega-2col-stacked > .group-footer {
+  clear: both;
+}

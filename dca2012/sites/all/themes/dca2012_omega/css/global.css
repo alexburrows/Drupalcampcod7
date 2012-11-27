@@ -1,0 +1,1373 @@
+  /* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+
+html {
+   /*background: #362314;*/
+}
+
+body {
+/*   background-color:#ffffff;*/
+   color: #0f6232;
+   font-family: "Georgia", serif;
+   font-size: 13px;
+}
+
+/*body a:link,
+body a:visited {
+   color: #006ea7;
+   color: #0397d6;
+   text-decoration: none;
+}*/
+
+/*body a:hover,
+body a:focus {
+   color: #da4d01;
+   text-documentation: none;
+}*/
+
+p {
+    color: #222222;
+    font-size: 1.2em;
+    /** clear: both; **/
+/*    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0 0 1.8em;*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+   /*font-weight: bold;*/
+   margin-bottom: 0.335em;
+   line-height: 1.2;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+    color: #0878be;
+}
+
+h3 {
+  color: #169049;
+}
+
+h4 {
+  color: #169049;
+}
+
+h5 {
+  color: #169049;
+}
+
+/*blockquote p {
+   color: #956411;
+   font-family: "Droid Serif", serif;
+   font-size: 1.3em;
+   font-style: italic;
+}*/
+
+/*acronym {
+   color: #956411;
+   font-weight: 800;
+   text-transform: uppercase;
+}*/
+
+/*strong {
+   color: #000000;
+}*/
+
+/*dt {
+    font-size: 1.2em;
+    font-weight: bold;
+}*/
+/*dd {
+    margin: 0 0 1em 0;
+}*/
+/**
+ * Mobile
+ */
+body {
+  background: #362314;
+}
+#page {
+	background-color: #4a8322;
+	background-image:url("../images/hilltile.jpg");
+	background-repeat:repeat;
+  	background-position: 0 0;
+}
+#section-header {
+background-color: #96c0ea ;
+}
+.front #section-header {
+background-image: url(../images/dca-bg-mobile-gray.jpg);
+background-repeat:no-repeat;
+background-position: center 0;
+min-height: 350px;
+}
+.not-front #section-header {
+min-height: 220px;
+background-image: url(../images/dca-bg-mobile-interior.jpg);
+background-repeat:no-repeat;
+background-position: center 0;
+}
+
+
+
+/*
+**User Bar / Social Media
+*/
+#region-user-first {
+float: left;
+position: absolute;
+top: 33px;
+left: -15px;
+z-index: 210;
+}
+#region-branding {
+top:60px;
+position: relative;
+margin: 0 auto;
+width: 120px;
+height: 120px;
+z-index: 50;
+}
+#region-branding .logo-img img {
+width: 120px;
+height: 120px;
+}
+.branding-data {
+text-align: center;
+}
+#region-user-second {
+position: absolute;
+top: 10px;
+right: 10px;
+z-index: 200;
+width: 95%;
+}
+#region-user-second form {
+text-align: right;
+}
+#region-user-second .block-search .form-actions,
+#region-user-second .block-search .form-submit {
+margin: 0;
+}
+#region-user-second .block-search .form-type-textfield input {
+width:70%;
+max-width: 200px;
+margin-left: 5%;
+}
+#region-user-second .block {
+float: right;
+margin: 0 0 10px ;
+clear: right;
+width: 100%;
+}
+
+#region-user-second #socialnav {
+list-style: none;
+float: right;
+clear: right;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+#region-menu {
+position: relative;
+z-index: 205;
+}
+
+  /**
+   * Social media links
+   */
+
+.block-block-15 {
+position: relative;
+}
+.block-block-15 ul li {
+display: inline-block;
+margin-left: 12px;
+}
+
+#socialnav li a {
+  cursor: pointer;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+}
+
+#socialnav li a.item1,
+#socialnav li a.item2,
+#socialnav li a.item3 {
+  background-image:url("../images/socialicons.png");
+  text-indent: -9999px;
+}
+#socialnav li a.item1 {
+    background-position:-3px 32px;
+}
+  #socialnav li a.item1:hover {
+      background-position: -3px -5px;
+  }
+#socialnav li a.item2 {
+    background-position:-50px 32px;
+}
+  #socialnav li a.item2:hover {
+      background-position: -50px -5px;
+  }
+#socialnav li a.item3 {
+    background-position:-100px 32px;
+}
+  #socialnav li a.item3:hover {
+      background-position: -100px -5px;
+  }
+
+.block-block-15 ul li {
+  display: inline-block;
+  margin-left: 0;
+}
+
+
+
+#block-block-14  {
+    background: url(../images/twitterbird.png) no-repeat 0 0 ;
+    padding: 12px 0px 25px 60px;
+}
+#block-block-14 p {
+color: white;
+font-size: 11px;
+background: #3e7fc1;
+display: block;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 3px 7px ;
+position: relative;
+right: -5px;
+font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+#block-block-14 a {
+    color: white;
+    font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    text-decoration: none;
+}
+#block-block-14 a:hover {
+    text-decoration: underline;
+}
+
+/** SEARCH FORM **/
+.page-search-node .block-system-main .search-form  input.form-text {
+    max-width: 72%;
+}
+.page-search-node .block-system-main .search-snippet {
+	font-size: 1em;
+}
+
+
+ /**
+ * Date Block
+ */
+.dca-date  {
+font-family: 'Courgette', cursive;
+font-size: 18px;
+text-align: left;
+}
+.dca-date p.mission {
+color: white;
+text-shadow: 2px 2px 2px black;
+margin-top: 30px;
+font-size: 1em;
+line-height: 1.3;
+}
+.dca-date .content  ul {
+font-size: 16px;
+margin-right: 5px;
+float: right;
+}
+.dca-date .content ul a {
+color: white;
+text-decoration: none;
+}
+.dca-date .content ul li {
+list-style: none;
+}
+.not-front  .dca-date p.mission {
+display: none;
+}
+
+#zone-header-wrapper {
+position: relative;
+}
+
+
+#block-system-main ol {
+  font-size: 1.2em;
+  color: #222222;
+}
+
+#block-system-main ul {
+  color: #222222;
+  font-size: 1.2em;
+  padding-left: 0px;
+}
+#block-system-main li {
+line-height: 1.2;
+}
+#block-system-main .field-name-body ul {
+padding-left:2em;
+}
+#block-system-main .field-name-body ol {
+padding-left: .5em;
+}
+
+/********/
+ul.primary {
+  border: none;
+  margin: 0;
+  	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+ul.primary li a,
+ul.primary li.active a {
+  border-color: none;
+  border-style: none;
+  border-width: none;
+
+}
+.tabs ul {
+padding: 0;
+}
+.tabs ul li {
+margin-right: 1px;
+padding-right: 0;
+}
+.tabs ul li a {
+	behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px 5px 0 0;
+	-ms-border-radius: 5px 5px 0 0 ;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	color: #0062A0;
+	font-size: 1.1em;
+	margin: 0;
+	padding: 5px 9px;
+}
+.tabs ul li a.active {
+  font-weight: bold;
+  color: #0062A0;
+}
+.responsive-layout-mobile .tabs ul {
+display: block;
+background: #ddd;
+}
+.responsive-layout-mobile .tabs ul li,
+.responsive-layout-mobile .tabs ul li a {
+display: block;
+float: left;
+margin: 0;
+}
+.responsive-layout-mobile .tabs ul {
+	border-radius: 5px 5px 0px 0px  ;
+    -ms-border-radius: 5px 5px 0px 0px ;
+	-webkit-border-radius: 5px 5px 0px 0px  ;
+	-moz-border-radius:5px 5px 0px 0px   ;
+}
+.tabs~#block-system-main,
+.page .tabs~#region-content-top-third,
+.tabs~#region-content-top-third~#block-system-main {
+	border-radius: 0px 0px 5px 5px ;
+    -ms-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px ;
+	-moz-border-radius: 0px 0px 5px 5px  ;
+}
+#zone-user-wrapper p {
+    color: #ffffff;
+    font-size: 1em;
+}
+#breadcrumb {
+    display: none;
+}
+#block-system-main {
+    background: none repeat scroll 0 0 white;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px ;
+	-moz-border-radius: 5px  ;
+}
+#block-system-main .block-inner {
+    padding: 20px;
+}
+#node-page-36 {
+    display: none; /*Hides content on home page*/
+}
+#zone-footer-wrapper {
+	  background-color: #362314;
+    height: 536px;
+}
+#zone-footer-wrapper p {
+    color: #ffffff;
+}
+#block-menu-menu-footer-menu ul li {
+    list-style: none;
+}
+#block-menu-menu-footer-menu li.expanded, li.collapsed, li.leaf {
+    padding: 0;
+}
+#block-menu-menu-footer-menu li a {
+    color: #808987;
+    float: left;
+    font-size: 1.7em;
+    padding: 40px 10px 0 11px;
+    text-decoration: none;
+}
+#block-menu-menu-footer-menu li a:hover {
+    color: white;
+}
+#block-menu-menu-footer-menu li a.active {
+    color: white;
+}
+#block-block-23 iframe {
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px ;
+	-moz-border-radius: 5px  ;
+  opacity: .5;
+}
+
+
+
+
+
+  /**
+   * Primary menu
+   */
+    .responsive-layout-mobile #zone-menu-wrapper {
+  }
+#zone-menu-wrapper {
+margin-top: -12px;
+}
+  #block-system-main-menu {
+  display: none;
+  }
+   #block-system-main-menu h2 {
+   display: none;
+   }
+   #block-system-main-menu ul {
+   padding: 0;
+   margin: 25px 0 0px;
+   }
+  body.responsive-layout-mobile #block-system-main-menu li.first {
+	margin-top: 20px;
+	}
+	body.responsive-layout-mobile #block-system-main-menu li.last {
+	margin-bottom: 20px;
+	}
+  body.responsive-layout-mobile #block-system-main-menu ul.menu li {
+    display: inline-block;
+
+    padding: 0;
+    margin:0 0 4px 0;
+    width:95%;
+  }
+    body.responsive-layout-mobile #block-system-main-menu li a {
+      background: #406bb3;
+      background: rgba(64,107,179,.85);
+      behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      color: white;
+      display: block;
+      border: 1px solid #3b5d93;
+      margin: 0 0 0 0;
+      padding: 10px 16px;
+      text-decoration: none;
+      width:95%;
+    }
+    #block-system-main-menu li a:after {
+      color: white;
+      content: " >";
+      display: inline-block;
+      float: right;
+      line-height: 1;
+      padding: 0;
+      margin: 0;
+    }
+    #block-system-main-menu li a:hover {
+      background: #4d78bc;
+      background: rgba(64,107,179,1);
+    }
+
+
+  .view-display-id-block_2 .views-field-name-1 a {
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px;
+    -ms-border-radius: 5px ;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px ;
+    color: #169049;
+    font-size: 1em;
+    padding: 3px 0 ;
+    margin: 0;
+    text-decoration: none;
+    height: auto;
+    font-weight: bold;
+}
+
+#block-views-sessions-block-3 {
+background: none repeat scroll 0 0 #FFFFFF;
+ border-radius: 5px;
+-ms-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius:  5px;
+box-shadow: 0 3px 4px 0 #2D2D2D;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+#block-views-sessions-block-3 .block-title {
+	background-color: #0062a0;
+	border-radius: 5px 5px 0 0;
+	 border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius:  5px 5px 0 0;
+	color: #ffffff;
+	   font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	font-size: 2.4em;
+	padding: 0 10px 10px;
+}
+
+#block-views-sessions-block-3 .content {
+padding: 10px;
+}
+
+.region-content-inner {
+padding-top: 10px;
+}
+
+#zone-content-wrapper {
+box-shadow: 0 -4px 4px #288035;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+  /*
+****Register Ticket****
+*/
+.register-block {
+margin-top: 20px;
+text-align: center;
+}
+.register-block a {
+    height: 100px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-indent: -9999px;
+}
+.register-block a.ticket-img {
+    background-image:url("/sites/all/themes/dca2012_omega/images/register.png");
+    background-position: 0px 100px;
+    float: left;
+}
+.register-block a:hover.ticket-img {
+    background-image:url("/sites/all/themes/dca2012_omega/images/register.png");
+    background-position: 0px -4px;
+    float: left;
+}
+  /*
+****Summit Block****
+*/
+#block-block-17 {
+  background-color:#33ccff;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 0 3px 4px 0 #2D2D2D;
+  behavior: url(/sites/all/libraries/PIE/PIE.htc);
+  color: #ffffff;
+  height: 265px;
+  padding: 10px;
+}
+#block-block-17 .summit-container {
+  background-image: url("/sites/all/themes/dca2012_omega/images/summit.png");
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  height: 230px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+#block-block-17 .summit-container .uppertext {
+    font-size: 3em;
+    height: 130px;
+    line-height: 0.8;
+    padding-top: 10px;
+    text-align: center;
+}
+#block-block-17 .summit-container .middletext {
+    float: right;
+    font-size: 2.2em;
+    margin-right: 15px;
+    margin-top: 50px
+}
+#block-block-17 .summit-container .middletext a:link,
+#block-block-17 .summit-container .middletext a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+#block-block-17 .summit-container .middletext a:hover,
+#block-block-17 .summit-container .middletext a:active {
+
+    text-decoration: underline;
+}
+#block-block-17 .summit-container .lowertext {
+  font-size: 2.6em;
+     font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+  margin-top: 95px;
+  text-align: center;
+  }
+/*
+****After Party****
+*/
+#block-block-18 {
+    background-color: #169049;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    box-shadow: 0 3px 4px 0 #2D2D2D;
+    line-height: 0.8;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+#block-block-18 .beerimage {
+	float: right;
+	padding: 44px 15px 0 0;
+}
+#block-block-18 .uppertext {
+    color: #FFFFFF;
+       font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 2.4em;
+    padding: 0 10px 10px;
+    position: relative;
+}
+#block-block-18 .middletext {
+    background-color: #FFFFFF;
+    color: #169049;
+    font-family: "Georgia",Georgia,serif;
+    font-size: 1.4em;
+    line-height: 0.9;
+    padding: 16px 10px;
+}
+#block-block-18 .lowertext {
+    background-color: #FFFFFF;
+    color: #0E592D;
+       font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.6em;
+    height: 75px;
+    line-height: 1.1;
+    padding: 0 10px 15px;
+    text-align: center;
+}
+#block-block-18 .partycall {
+    background-color: #169049;
+
+    float: right;
+       font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.6em;
+    padding: 20px;
+}
+#block-block-18 .partycall a:link,
+#block-block-18 .partycall a:visited {
+    background-color: #0E592D;
+   	color: #ffffff;
+ behavior: url(/sites/all/libraries/PIE/PIE.htc);
+border-radius: 5px;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+#block-block-18 .partycall a:hover,
+#block-block-18 .partycall a:active {
+	background-color: #13743b;
+}
+
+
+/*
+****Precamp Training****
+*/
+.precamp-training {
+    background-color: #a3bf46;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+    box-shadow: 0 3px 4px 0 #2D2D2D;
+    line-height: 0.8;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.precamp-training .beerimage {
+  float: right;
+  padding: 44px 15px 0 0;
+}
+.precamp-training .uppertext {
+    color: #FFFFFF;
+       font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 2.4em;
+    padding: 0 10px 10px;
+    position: relative;
+}
+.precamp-training .middletext {
+    background-color: #FFFFFF;
+    color: #169049;
+    font-family: "Georgia",Georgia,serif;
+    font-size: 1.4em;
+    line-height: 0.9;
+    padding: 16px 10px;
+}
+.precamp-training .lowertext {
+    background-color: #FFFFFF;
+    color: #0E592D;
+       font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.4em;
+    min-height: 100px;
+    line-height: 1.1;
+    padding: 0 10px 15px;
+    text-align: left;
+}
+.precamp-training .precampcall {
+    background-color: #a3bf46;
+    float: right;
+       font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.6em;
+    padding: 18px 10px 16px 0;
+    display: block;
+}
+.precampcall a:link,
+.precampcall a:visited {
+    background-color: #b7d64e;
+    color: #ffffff;
+ behavior: url(/sites/all/libraries/PIE/PIE.htc);
+border-radius: 5px;
+    -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius:  5px;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+.precampcall a:hover,
+.precampcall a:active {
+  background-color: #c0e052;
+}
+
+
+  /** SLIDESHOW **/
+  #block-views-home-slideshow-block-1 .node-title,
+	#block-views-home-slideshow-block-1 .field-label {
+		display: none;
+	}
+
+	.field-name-field-slideshow-image img {
+	  height: auto;
+  	width: 100%;
+  	margin-bottom: 20px;
+	}
+
+.view-sessions .views-row {
+display: block;
+width:100%;
+padding: 5px 0 5px;
+margin-bottom: 5px;
+border-bottom: 1px solid #ccc;
+}
+.view-right a {
+	text-decoration: none;
+}
+.view-right p {
+	line-height: 1.3em;
+	margin-top: 18px;
+}
+
+.view-sessions .views-row:after {
+  content: " ";
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+}
+.view-sessions .views-row p {
+margin: 0;
+}
+.responsive-layout-mobile .view-sessions .view-left {
+float: right;
+width: 105px;
+margin-left: 15px;
+}
+.view-left .view-name {
+	padding: 2px;
+}
+.view-left .view-name a {
+    background-color: #169049;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 3px;
+    text-decoration: none;
+}
+
+
+
+ #region-content-top-third {
+background: white;
+border-radius: 5px;
+margin: 0;
+}
+ #region-content-top-third  .region-inner {
+padding: 10px;
+}
+ #region-content-top-third ul li {
+width: 100%;
+}
+
+/** SPONSOR BLOCKS **/
+.page-sponsors #region-content .block-views {
+	background-color: #ffffff;
+	behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+	padding-bottom: 20px;
+}
+
+.page-sponsors #region-content .block-views,
+#region-postscript-first ,
+#region-postscript-second ,
+#region-postscript-third {
+         text-align: center;
+}
+.page-sponsors #region-content .block-views h2,
+#region-postscript-first .block h2,
+#region-postscript-second .block h2,
+#region-postscript-third .block h2 {
+	display: block;
+   	font-size: 2.2em;
+   	letter-spacing: inherit;
+   	margin-top: 10px;
+    text-align: center;
+
+}
+#block-views-individual-sponsors-block h2,
+#block-views-sponsors-block-8 h2,
+#block-views-sponsors-block-4 h2 {
+	color: #969696;
+}
+#block-views-sponsors-block-1 h2,
+#block-views-sponsors-block-5 h2 {
+	color: #a8a012;
+}
+#block-views-sponsors-block-3 h2,
+#block-views-sponsors-block-7 h2 {
+	color: #935421;
+}
+.page-sponsors #region-content .block-views ul li,
+#region-postscript-first ul li ,
+#region-postscript-second  ul li,
+#region-postscript-third  ul li {
+   list-style: none;
+   list-style-image: none;
+}
+
+#block-views-individual-sponsors-block .views-field-name a {
+	color: #0062A0;
+font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+font-size: 1.3em;
+font-weight: bold;
+text-decoration: none;
+text-transform: none;
+}
+#block-block-22 p {
+	margin-bottom: 20px;
+}
+#block-block-22 p a, #block-block-22 p a:visited {
+	background-color: #ce8230;
+	border-radius: 5px;
+	box-shadow: 0 3px 4px 0 #2D2D2D;
+	color: #ffffff;
+	display: block;
+	font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	font-size: 1.5em;
+    font-weight: bold;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px ;
+	-moz-border-radius:  5px;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#block-block-22 p a:hover {
+	background-color: #f1a13a;
+	text-decoration: none;
+}
+#block-block-26 p {
+	margin-bottom: 0px;
+}
+#block-block-26 p a {
+	background-color: #0062A0;
+	border-radius: 5px;
+	box-shadow: 0 3px 4px 0 #2D2D2D;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px ;
+	-moz-border-radius:  5px;
+	color: #ffffff;
+	display: block;
+	font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	font-size: 1.5em;
+    font-weight: bold;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#block-block-26 p a:hover {
+	background-color: #0084d7;
+	text-decoration: none;
+}
+
+
+/*
+****Community Page****
+*/
+#views-exposed-form-attendees-page {
+	background-color: #87B7E4;
+	border-radius: 5px;
+    -ms-border-radius: 5px ;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px ;
+	color: white;
+	padding: 10px;
+}
+.view-attendees ul li {
+	margin: 20px 0;
+	list-style: none;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	width:48%;
+	padding-right: 20px;
+
+}
+.view-attendees .user-info {
+    padding: 2px 0 5px;
+    font-size: .9em;
+}
+.view-attendees .user-info a {
+text-decoration: none;
+
+}
+
+.view-attendees .views-row-last .user-info {
+    border-bottom: none;
+}
+
+.page-community .item-list .pager li, .item-list .pager ul li {
+float: none;
+}
+.page-community  .pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
+width: 60px; }
+.page-community  .pager li a { padding:7px 0;
+}
+
+/*
+**Sessions Page**
+*/
+.view-sessions .view-header a {
+	background-color: #0878be;
+	behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+.view-sessions textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+	  color: #0878be;
+	  border: thin solid #0878be;
+}
+.view-sessions .form-submit button, input[type="reset"], input[type="submit"], input[type="button"] {
+	  background: #ffffff;
+	  border: thin solid #0878be;
+	  behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+	  color: #0878be;
+	  padding: 5px 10px 5px;
+}
+
+
+
+    /**
+     * Footer styles
+     */
+
+    body #block-menu-menu-footer-menu {
+      margin-top: 20px;
+    }
+    body.responsive-layout-mobile  #block-menu-menu-footer-menu ul.menu li {
+      display: block;
+      width: 87%;
+    }
+      body.responsive-layout-mobile  #block-menu-menu-footer-menu ul.menu li a {
+        clear: both;
+        float: none;
+        background: #406bb3;
+        background: rgba(255,255,255,.05);
+        behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        color: white;
+        display: block;
+        font-size: 14px;
+        margin: 0 20px 5px 0;
+        padding: 12px 16px;
+        text-decoration: none;
+        width: 100%;
+      }
+      body #block-menu-menu-footer-menu ul.menu li a:hover {
+        background: rgba(255,255,255,.10);
+      }
+      body #block-menu-menu-footer-menu ul.menu li a:after {
+        content: " >";
+        display: inline-block;
+        float: right;
+        margin-right: 0;
+        overflow: hidden;
+      }
+
+    /**
+     * Footer icon
+     */
+     body  .block-21 block-block-21,
+     body .tb-copyright,
+     #zone-footer-wrapper p {
+       text-align: center;
+     }
+     #block-block-23 {
+		opacity: 0.5;
+	}
+	#region-footer-second .tb-copyright p {
+    color: #808987;
+	}
+
+/**
+ * Sponsor page
+ */
+ /** hide form **/
+ table.sponsors-table {
+   display: none;
+ }
+
+ /*
+  ****Invididual Sponsorship****
+  */
+  /*#node-individual-sponsorship-180 #page-node-80*/
+  .field-name-commerce-price  {
+    display: inline-block;
+    font-size: 1.6em;
+  	float: right;
+  	margin-top: 20;
+  	padding-left: 0;
+  }
+  .commerce-add-to-cart #edit-submit {
+  	float: right;
+  	margin-top: 10px;
+  	margin-left: 10%;
+  }
+  .field-name-field-no-thanks-checkout a {
+    margin-top: 12px;
+    	  background: #ffffff;
+	  border: thin solid #0878be;
+	  behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+	  color: #0878be;
+	  padding: 5px 10px 5px;
+	  font: bold 12px/1.2 Arial, sans-serif;
+	  text-decoration: none;
+	  float: right;
+  }
+  .commerce-add-to-cart {
+  clear: both;
+  }
+/*
+**Featured Sponsor Block**
+*/
+#block-views-sponsors-block-9 {
+ 	background-color: #FFFFFF;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px ;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:  5px;
+    padding: 10px;
+    text-align: center;
+}
+#block-views-sponsors-block-9 h2 {
+	font-size: 2em;
+}
+#block-views-sponsors-block-9 ul li {
+list-style: none;
+}
+#region-content {
+    margin-bottom: 20px;
+ }
+/**
+ * Twitter feed
+ */
+.block-12.block-block-12 {
+  margin: 20px 0;
+}
+
+
+
+
+/* Checkout Page, tweet block */
+ .checkout-social p { padding: 5px 0px 20px 10px;  }
+
+
+#btnTwitter {
+background: #0E592D;
+border: 2px solid white;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+	border-radius: 5px;
+-ms-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+color: #E9F33A;
+font-size: 1.2em;
+padding: 2px 6px;
+text-decoration: none;
+display:block;
+width: 66px;
+text-align: center;
+font-family: 'Courgette', cursive;
+box-shadow: 0 0 5px #888;
+margin-top: 9px;
+}
+#btnTwitter:hover {
+background: #288035;
+}
+
+.responsive-layout-mobile #block-views-sponsors-block-9 .full-width-image img,
+.responsive-layout-mobile.page-node-34 .field-name-body img,
+.responsive-layout-mobile.page-node-177 .field-name-body img,
+.responsive-layout-mobile .field-name-field-img img {
+width:100%;
+height: auto;
+}
+.page-node-75.responsive-layout-mobile .field-name-field-img img {
+width:auto;
+}
+
+.field-name-field-no-thanks-checkout {
+clear: both;
+}
+.commerce-add-to-cart {
+float: right;
+}
+
+
+
+#region-sidebar-first #block-commerce-cart-cart {
+margin: 10px 0;
+	background: white;
+	border-radius: 5px;
+    -ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+#region-sidebar-first #block-commerce-cart-cart .block-inner {
+padding: 10px;
+}
+
+#region-sidebar-first #block-commerce-cart-cart ul.links {
+margin: 0;
+display: block;
+}
+
+#region-sidebar-first #block-commerce-cart-cart ul.links li a {
+background: white;
+border: thin solid #0878BE;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+border-radius: 5px;
+-ms-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+color: #0878BE;
+padding: 5px 10px 5px;
+}
+#region-sidebar-first #block-commerce-cart-cart ul.links li a:hover {
+text-decoration: underline;
+}
+
+
+
+ .block-logintoboggan {
+text-align: right;
+}
+ .block-logintoboggan a {
+color: white;
+text-decoration: none;
+font-family: 'cabin', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+ .block-logintoboggan a:hover {
+text-decoration: underline;
+}
+
+#block-system-user-menu {
+display: none;
+}
+
+#page:after {
+  content: " ";
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+}
+
+.page-node-37 .group-right {
+float: left;
+}
+.page-node-37 .group-left {
+float: left;
+width: 65%;
+}
+
+.toboggan-unified #login-links {
+text-align: center;
+font-size: 1em;
+line-height: 2.7;
+}
+.login-forgot , .page-user .form-actions {
+display: inline-block;
+margin: 0 10px 0 0;
+}
+.login-forgot a,
+.toboggan-unified #login-links a, .toboggan-unified #login-links a:hover,
+.toboggan-unified #login-links a.lt-active, .toboggan-unified #login-links a.lt-active:hover {
+background: #ffffff;
+border: thin solid #0878be;
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+border-radius: 5px ;
+-ms-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius:  5px;
+color: #0878be;
+padding: 5px 10px 5px;
+text-decoration: none;
+font: bold 12px/1.2 Arial, sans-serif;
+}
+.toboggan-unified #login-links a:hover,
+.toboggan-unified #login-links a.lt-active:hover,
+.toboggan-unified #login-links a:focus,
+.toboggan-unified #login-links a.lt-active:focus {
+background: #ddd;
+}
+#login-form input.form-text {
+width:100%;
+}
+
+/*
+ ****Articles****
+*/
+
+.node-article img {
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px
+	-moz-border-radius: 5px;
+	float: left;
+	margin: 10px 20px 20px 0;
+}
+
+.node-article a {
+	text-decoration: none;
+}
+
+.node-article a:hover {
+	text-decoration: underline;
+}
+
+.node-article .filter-wrapper {
+	display: none;
+}
+
+/*community views   */
+
+.view-attendees .views-row  {
+	float: left;
+	width: 130px;
+	padding: 5px;
+}
+
+.view-attendees .view-content {
+  margin-top;
+  text-align: center;
+}
+.view-attendees img {
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px;
+}
+/*
+****User Page****
+*/
+
+.page-user .user-picture img {
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px;
+  margin-top: 25px;
+}
+
+.page-user .profile h3 {
+  margin-right: 150px
+}

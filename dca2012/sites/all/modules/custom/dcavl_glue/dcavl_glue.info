@@ -1,0 +1,4 @@
+name = "Drupal Camp Asheville 2012 Glue"
+description = "Custom glue code for 2012.drupalcampasheville.com"
+core = 7.x
+version = 7.x-1.x-dev

@@ -1,0 +1,232 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+/*@media only screen and (max-device-width: 760px) {
+
+}*/
+
+#section-content {
+margin-top: 69px;
+}
+.not-front #section-content {
+margin-top: 200px;
+}
+.responsive-layout-narrow body {
+ background: white url("../images/hilltile.jpg") scroll repeat 0 0;
+
+}
+
+.responsive-layout-narrow #page {
+  background-image:  url(../images/dca-bg-narrow2.jpg);
+    	background-repeat:no-repeat;
+  	background-position: center 0;
+}
+
+.responsive-layout-narrow .logo-img {
+	margin-top: 60px;
+}
+.responsive-layout-narrow #logo {
+	margin-left: 40px;
+	width: 70%
+}
+
+ /*
+**Menu Zone / Navigation
+*/
+.responsive-layout-narrow .navigation {
+	margin-top: -85px;
+	margin-left: -6px;
+}
+.responsive-layout-narrow .navigation ul.inline li {
+	padding: 0;
+}
+.responsive-layout-narrow #block-system-main-menu ul.menu li a:link,
+.responsive-layout-narrow #block-system-main-menu ul.menu li a:visited {
+	background: none repeat scroll 0 0 white;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    color: #336699;
+    font-size: .8em;
+    /*font-family: "cabin";*/
+    padding: 4px;
+    text-decoration: none;
+}
+.responsive-layout-narrow #block-system-main-menu ul.menu li a:hover {
+	background: none repeat scroll 0 0 #f9c8a0;
+    border: 2px solid #f9c8a0;
+}
+.responsive-layout-narrow #block-system-main-menu ul.menu li a.active	 {
+	background: none repeat scroll 0 0 #f9c8a0;
+    border: 2px solid #f9c8a0;
+    color: #336699;
+}
+
+
+#block-system-main-menu  ul.menu li,
+#block-system-main-menu  ul.menu li ~ li ~ li ~ li ~li ,
+#block-system-main-menu  ul.menu li ~ li ~ li ~ li ~li~li,
+#block-system-main-menu  ul.menu li ~ li ~ li ~ li ~li~li~li{
+margin-right: 3px;
+margin-left: 0px;
+}
+#block-system-main-menu  ul.menu li ~ li ~ li ~li {
+	margin-right: 136px;
+}
+.responsive-layout-narrow .block-block-20 {
+margin-top: -32px;
+}
+
+#block-block-17 .summit-container .uppertext {
+	height: 120px;
+	display: block;
+}
+#block-block-18 .middletext {
+font-size: 16px;
+}
+#block-block-18 .lowertext {
+text-align: left;
+font-size: 18px;
+}
+
+#block-block-18 .partycall {
+background-color: #169049;
+border-radius: 0 0 5px 5px;
+font-family: "cabin";
+font-size: 1.6em;
+padding: 18px 10px 16px 0;
+}
+#block-block-18 .beerimage {
+float: right;
+padding: 18px 15px 0 0;
+}
+
+.responsive-layout-narrow .register-block a.ticket-img {
+background-image: url("/sites/all/themes/dca2012_omega/images/register.png");
+background-position: 0px 76px;
+float: left;
+background-size: 220px;
+height: 76px;
+width: 220px;
+}
+.responsive-layout-narrow .register-block a.ticket-img:hover {
+background-position: 0px 0px;
+}
+/*
+**User Bar / Social Media
+*/
+.responsive-layout-narrow #block-block-14  {
+left: -37px;
+top: 25px;
+padding: 35px 15px 25px 22px;
+float: left;
+}
+.responsive-layout-narrow #block-block-14 p {
+    font-size: 12px;
+    padding: 2px 12px;
+}
+/*
+****Menu Zone / Navigation****
+*/
+#block-system-main-menu {
+margin-top: -93px;
+}
+/*
+****Summit Block****
+*/
+.responsive-layout-narrow #block-block-17 p {
+	font-size: 3em;
+}
+
+/*
+****Footer****
+*/
+.responsive-layout-narrow #block-block-1 {
+    margin-top: 22%;
+}
+.responsive-layout-narrow #block-menu-menu-footer-menu ul {
+    text-align: center;
+}
+
+
+
+
+
+.responsive-layout-narrow #zone-user {
+height: 184px;
+}
+
+.responsive-layout-narrow #region-branding {
+width: 130px;
+padding: 0;
+margin: 0;
+height: 130px;
+position: relative;
+top: 60px;
+left: 303px;
+z-index: 210;
+}
+.responsive-layout-narrow #region-branding .logo-img {
+padding: 0;
+margin: 0;
+margin-top: 0;
+width: 130px;
+}
+.responsive-layout-narrow #region-branding .logo-img #logo {
+margin: 10px 0;
+padding: 0;
+width: 90%px;
+height: 90%px;
+}
+
+.responsive-layout-narrow #region-user-second {
+position: relative;
+top: 22px;
+right: 0;
+width: 215px;
+float: right;
+}
+.responsive-layout-narrow #socialnav {
+    width:175px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+.responsive-layout-narrow .field-name-field-img img {
+width:100%;
+height: auto;
+}
+.page-node-75.responsive-layout-narrow .field-name-field-img img {
+width:auto;
+}
+
+ #socialnav  li {
+text-indent: -10000px;
+display: block;
+float: right;
+width: 30px;
+}
+
+#block-system-user-menu ul {
+margin-top: -3px;
+margin-right: -21px;
+}
+#page #block-system-main-menu {
+  display: block !important;
+  height: 42px;
+  }
+  
+/*
+ ****Sponsor Page****
+*/
+
+#block-views-individual-sponsors-block .views-field-name a {
+	font-size: 1em;
+}
+
+#block-block-22 p {
+	font-size: 1em;
+}

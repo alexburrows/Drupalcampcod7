@@ -1,0 +1,25 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+  color: #FFF;
+  text-decoration: none;
+  padding: 1em;
+  border: none;
+}
+
+.sf-menu.sf-style-default a:hover{
+  background-color: #AE3A00;
+}
+.sf-menu.sf-style-default li:hover, .sf-menu.sf-style-default li.sfHover, .sf-menu.sf-style-default a:focus, .sf-menu.sf-style-default a:hover, .sf-menu.sf-style-default a:active {
+  background-color: #AE3A00;
+}
+
+.sf-menu.sf-style-default li li {
+  background-color: #CC5800;
+  margin-top:7px;
+}
+
+
